@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import paymentImg from '../../../images/ssl-commerce.1d268dce.png';
 
 const Footer = () => {
     return (
@@ -20,7 +19,7 @@ const Footer = () => {
                 <h5>Product Marketing</h5>
             </div>
             <div className="col-md-4 ms-5">
-                <h5>About Us</h5>
+                <h5>About us</h5>
                 <h5>Need a Consultant?</h5>
                 <h5>Our Services</h5>
                 <h5>Have Any Questions?</h5>
@@ -28,7 +27,6 @@ const Footer = () => {
                 <h5>Contact Us</h5>
             </div>
             <div className="col-md-3">
-                <img src={paymentImg} alt=""/>
             </div>
             <p className="ms-5"> Copyright 2020 Torun. All rights reserved.</p>
         </div>

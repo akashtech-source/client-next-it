@@ -7,7 +7,7 @@ const Testimonials = () => {
     
     const [reviews, setReviews] = useState([]);
     useEffect(() => {
-        const url = `http://localhost:5000/service`;
+        const url = `https://fast-dusk-22522.herokuapp.com/service`;
         fetch(url)
         .then(res => res.json())
         .then(data => setReviews(data));

@@ -17,7 +17,7 @@ const Bookings = () => {
             detail: data.detail,
             category: data.category
         };
-        const url = `http://localhost:5000/addBookings`;
+        const url = `https://fast-dusk-22522.herokuapp.com/addBookings`;
 
         console.log(bookingData);
         fetch(url, {
@@ -37,7 +37,7 @@ const Bookings = () => {
     console.log(id);
     const [service, setService] = useState([]);
     useEffect(() => {
-        const url = `http://localhost:5000/bookings/${id}`
+        const url = `https://fast-dusk-22522.herokuapp.com/bookings/${id}`
         fetch(url)
         .then(res => res.json())
         .then(data => setService(data[0]));

@@ -11,7 +11,7 @@ const UserTestimonial = () => {
             category: data.category,
             review: data.review
         };
-        const url = `http://localhost:5000/addReview`;
+        const url = `https://fast-dusk-22522.herokuapp.com/addReview`;
 
 
         console.log(reviewData)

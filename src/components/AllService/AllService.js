@@ -5,7 +5,7 @@ import MyService from './MyService';
 const AllService = () => {
     const [services, setServices] = useState([]);
 
-    const url = 'http://localhost:5000/service';
+    const url = 'https://fast-dusk-22522.herokuapp.com/service';
     
     useEffect(()=> {
         fetch(url)

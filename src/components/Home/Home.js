@@ -1,11 +1,10 @@
 import React from 'react';
-import Footer from './Footer/Footer';
 import Header from './Header/Header';
 import OurClients from './OurClients/OurClients';
 import Services from './Services/Services';
 import Teams from './Teams/Teams';
 import Testimonials from './Testimonials/Testimonials';
-
+import Footer from '../Home/Footer/Footer';
 const Home = () => {
     return (
         <div >

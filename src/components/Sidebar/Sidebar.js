@@ -8,7 +8,7 @@ const Sidebar = () => {
     const [admin, setAdmin] = useState([]);
     const [isAdmin, setIsAdmin] = useState(false);
     useEffect(() => {
-        fetch('http://localhost:5000/admin')
+        fetch('https://fast-dusk-22522.herokuapp.com/admin')
             .then(res => res.json())
             .then(data => setAdmin(data))
     }, [])
