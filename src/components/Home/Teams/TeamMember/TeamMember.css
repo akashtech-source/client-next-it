@@ -1,0 +1,26 @@
+.member-container{
+    margin-top: 4em;
+    height: 27em;
+    width: 17em;
+    padding: 1em;
+    text-align: center;
+    margin: 3em;
+    margin-right: -4.5em;
+    margin-left: 6em;
+    border-radius: 0.3em;
+}
+.member-container img{
+    border-radius: 0.3em;
+    
+}
+.developer{
+    margin-top: 1em;
+}
+.member-container:hover{
+    box-shadow: 2px 2px 5px rgb(57, 198, 253);
+}
+.team-main{
+    background-image: url(../../../../images/shape-1.png);
+    background-repeat: no-repeat;
+    
+}

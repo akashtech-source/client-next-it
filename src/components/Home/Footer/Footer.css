@@ -1,0 +1,8 @@
+.footer-container{
+    background-image: url(../../../images/bg-4.jpg);
+    opacity: 85%;
+    height: 28em;
+    position: relative;
+    top: 5em;
+    width: 100%;
+}

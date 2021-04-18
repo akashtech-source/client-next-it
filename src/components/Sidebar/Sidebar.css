@@ -1,0 +1,14 @@
+.sidebar-container{
+    background-color: lightseagreen;
+    width: 20em;
+    height: 40em;
+}
+.sidebar-container a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-top: 2em;
+}
+.sidebar-container a:hover{
+    color: cyan;
+}

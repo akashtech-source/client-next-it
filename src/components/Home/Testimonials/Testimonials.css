@@ -1,0 +1,11 @@
+.main-testimonial{
+    background-image: url(../../../images/bg-5.jpg);
+    height: 68em;
+    width: 100%;
+}
+.form-container{
+    margin-left: 30em;
+    width: 20em;
+    text-align: center;
+    
+}

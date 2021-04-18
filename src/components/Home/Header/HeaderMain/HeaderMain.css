@@ -1,0 +1,11 @@
+.main-content{
+    position: relative;
+    top: 10em;
+}
+.main-content h1{
+    font-size: 6rem;
+}
+.main-header{
+    background-image: url(../../../../images/bg-4.jpg);
+    height: 37em;
+}

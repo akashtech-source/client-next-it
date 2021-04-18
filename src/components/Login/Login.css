@@ -1,0 +1,14 @@
+.loginForm-container input{
+    position: relative;
+    left: 32em;
+    top: 10em;
+}
+.loginForm-container button{
+    position: relative;
+    top: 11em;
+    
+}
+.loginForm-container {
+    height: 40em;
+    background-image: url(../../images/bg-1.jpg);
+}
